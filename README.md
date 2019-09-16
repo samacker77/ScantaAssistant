@@ -3,7 +3,8 @@ Integration of Google Assistant SDK
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
+First run , git clone https://github.com/samacker77/ScantaAssistant.git
+cd ScantaAssistant
 ### Prerequisites
 
 Python3
