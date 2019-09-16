@@ -45,7 +45,9 @@ Add additional notes about how to deploy this on a live system
 
 ### Generating credentials
 > python3 -m pip install --upgrade google-auth-oauthlib[tool]
-> google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype --scope https://www.googleapis.com/auth/gcm --save --headless --client-secrets client_secret_303436686800-808bo8u3me0o5s5ejifg0fdli1dobeg7.apps.googleusercontent.com.json
+
+---
+> google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype --save --headless --client-secrets client_secret_303436686800-808bo8u3me0o5s5ejifg0fdli1dobeg7.apps.googleusercontent.com.json
 
 ### Running the sample
 > googlesamples-assistant-pushtotalk --project-id scantaai-124e7 --device-model-id scantaai-124e7-scantaai-tvfx97
